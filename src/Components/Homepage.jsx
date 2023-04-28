@@ -40,7 +40,8 @@ const Homepage = () => {
               </button>
             )}
             onSuccess={login}
-            onFailure={login}
+            // onFailure={login}
+            onFailure={console.log}
             isSignedIn={true}
             cookiePolicy={"single_host_origin"}
           />
