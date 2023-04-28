@@ -68,7 +68,7 @@ const Navbar = () => {
           />
         </div>
       ) : (
-        <h1 className="notSignedIn">User not available</h1>
+        <h1 className="notSignedIn">User not signed in</h1>
       )}
     </div>
   );
