@@ -33,7 +33,7 @@ const Homepage = () => {
             clientId="57529085775-fk8rn8hren1q8o5ja2idq4m7hug5aong.apps.googleusercontent.com"
             render={(renderProps) => (
               <button
-                onclick={renderProps.onClick}
+                onClick={renderProps.onClick}
                 disabled={renderProps.disabled}
                 className="login-button"
               >
