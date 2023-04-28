@@ -13,6 +13,8 @@
 @media only screen and (max-width: 1000px) {
   .navbar {
     flex-direction: column;
+    padding: 20px 0px;
+    gap: 10px;
   }
 }
 

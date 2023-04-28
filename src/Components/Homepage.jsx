@@ -7,7 +7,6 @@ import {
   setUserData,
 } from "../features/userSlice";
 import "../styling/home.css";
-import BookOutlinedIcon from "@material-ui/icons/BookOutlined";
 
 const Homepage = () => {
   const isSignedIn = useSelector(selectSignedIn);

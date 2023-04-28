@@ -60,7 +60,9 @@ const Navbar = () => {
                 onClick={renderProps.onClick}
                 disabled={renderProps.disabled}
                 className="logout-button"
-              >Logout</button>
+              >
+                Logout
+              </button>
             )}
             onLogoutSuccess={logout}
           />
