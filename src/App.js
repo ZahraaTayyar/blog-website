@@ -1,9 +1,10 @@
 import './App.css';
-
+import Register from './register/Register';
 function App() {
   return (
-    <div className="App">
-      Hello welcome to blog webiste
+   <div> 
+   
+    <Register /> 
     </div>
   );
 }
